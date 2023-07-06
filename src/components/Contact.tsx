@@ -1,14 +1,7 @@
 import ProfileImg from "../assets/profile.jpg";
-import { saveAs } from "file-saver";
 import Resume from "../assets/resume.pdf";
 
 function Contact() {
-  const downLoadResume = () => {
-    const fileUrl = Resume;
-    const fileName = "pharanyu_resume.pdf";
-
-    saveAs(fileUrl, fileName);
-  };
   return (
     <section className="w-full flex flex-row mt-36 mb-36 max-lg:flex-col-reverse max-lg:items-center">
       <div className="flex">
@@ -46,12 +39,13 @@ function Contact() {
               >
                 Github
               </a>
-              <button
-                onClick={downLoadResume}
+              <a
+                href={Resume}
+                download
                 className="items-center flex border-[1px] border-primaly px-2 py-1 rounded-md hover:border-accent hover:text-accent"
               >
                 My Resume
-              </button>
+              </a>
             </div>
           </div>
         </div>

@@ -1,5 +1,4 @@
 import Element1 from "../assets/Asset_1.png";
-import ProfileImg from "../assets/profile.jpg";
 function Profile() {
   return (
     <>
