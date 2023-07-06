@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("/fonts/fonts.css");
+
+#root {
+  background-color: #272322;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  color: #d3c5b4;
+}

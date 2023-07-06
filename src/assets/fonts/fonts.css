@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Krick";
+  src: url("./Krick-Regular.woff") format("woff");
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Krick";
+  src: url("./Krick-Medium.woff") format("woff");
+  font-weight: 500; /* Medium */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Krick";
+  src: url("./Krick-Bold.woff") format("woff");
+  font-weight: 700; /* Semibold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Krick";
+  src: url("./Krick-SemiBold.woff") format("woff");
+  font-weight: 600; /* Bold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Clover";
+  src: url("./CloverGrotesk-Regular.woff") format("woff");
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Clover";
+  src: url("./CloverGrotesk-Medium.woff") format("woff");
+  font-weight: 500; /* Medium */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Clover";
+  src: url("./CloverGrotesk-SemiBold.woff") format("woff");
+  font-weight: 600; /* Bold */
+  font-style: normal;
+}
